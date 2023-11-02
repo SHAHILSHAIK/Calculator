@@ -1,0 +1,118 @@
+<html>
+	<head>
+	<title>Java script</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+	function numAdd()
+	{
+	var n1=parseInt(document.getElementById("no1").value);
+	var n2=parseInt(document.getElementById("no2").value);
+	var res=n1+n2;
+	document.getElementById("res").value=res;
+	}
+	function numSub()
+	{
+	var n1=parseInt(document.getElementById("no1").value);
+	var n2=parseInt(document.getElementById("no2").value);
+	var res=n1-n2;
+	document.getElementById("res").value=res;
+	}
+	function numMul()
+	{
+	var n1=parseInt(document.getElementById("no1").value);
+	var n2=parseInt(document.getElementById("no2").value);
+	var res=n1*n2;
+	document.getElementById("res").value=res;
+	}
+	function numDiv()
+	{
+	var n1=parseInt(document.getElementById("no1").value);
+	var n2=parseInt(document.getElementById("no2").value);
+	var res=n1/n2;
+	document.getElementById("res").value=res;
+	}
+	</script>
+	<style>
+	body
+	{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSfS5-9P-n_hg7BzUEa0Rqjt_sZ3QevHlpnEnEVTyimQ&usqp=CAU&ec=48665699);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+	/*body
+   {
+   
+    animation:change 10.3s ease infinite;
+   }
+   @keyframes change
+   {
+    0%
+    {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm4IN25ZuTqZPpuLcXr5ADSxDkbRTLyEfGsYcSCNBYtw&usqp=CAU&ec=48665699);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%
+    {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSfS5-9P-n_hg7BzUEa0Rqjt_sZ3QevHlpnEnEVTyimQ&usqp=CAU&ec=48665699);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%
+    {
+        background-image: url(https://img.freepik.com/premium-vector/calculator-with-icons-background-vector-illustration_3482-3880.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%
+    {
+        background-image: url(https://previews.123rf.com/images/pookgreen/pookgreen1501/pookgreen150100256/35714761-number-keypad-of-a-calculator-on-white-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%
+    {
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }*/
+	.no1
+	{
+	margin:20px;
+	}
+	.no2
+	{
+	margin:20px;
+	}
+	.res
+	{
+	margin:20px;
+	}
+	</style>
+	</head>
+	<body>
+	<form>
+	<div id="div1">
+	<center><h1 style="color:red">CALCULATOR</h1></center>
+	</div>
+	<center>
+	<table >
+	<tr><td><h1>Number 1</td><td><h1>:<input type=text id="no1"></td></tr>
+	<tr><td><h1>Number 2</td><td><h1>:<input type=text id="no2"></td></tr>
+	<tr><td><h1>Result</td><td><h1>:<input type=text id="res"></td></tr>
+	</center>
+	<table border="1" style="color:blue">
+	<center><tr>
+	<td><input type=button value="Add" onclick="numAdd()"></td>
+	<td><input type=button value="Sub" onclick="numSub()"></td>
+	<td><input type=button value="Mul" onclick="numMul()"></td>
+	<td><input type=button value="Div" onclick="numDiv()"></td>
+    </tr></center>
+	</table>
+	</form>
+	</table>
+	</body>
+	</html>
