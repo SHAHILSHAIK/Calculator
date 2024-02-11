@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url(https://img.freepik.com/premium-vector/pi-day-seamless-pattern-with-mathematical-constants-baked-pie-template-hand-drawn-illustration_2175-12164.jpg);
+}
+#heading
+{
+    font-size: 100px;
+    font-family:Arial, sans-serif ;
+    background-color:rgb(235, 244, 230);
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: -31.5px;
+}
+button
+{
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    border:none;
+    background-color:grey;
+    color:whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin:2%;
+}
+.button-color
+{
+    background-color: #FF8700;
+        color:white; 
+}
+.button-color:hover{
+    background-color:#FF8700;
+    color:black;
+}
+.button-color:active
+{
+    color: white;
+}
+.button-colors
+{
+    background-color:aquamarine;
+}
+
+.button-colors:hover{
+    background-color:aqua;
+    color: black;
+}
+.button-colors:active
+{
+    color: white;
+}
+.button-clr
+{
+    background-color:grey;
+}
+.button-clr:hover
+{
+    background-color: #FF8700;
+}
+#keys
+{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+#calculator
+{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    max-width:  500px;
+    overflow: hidden;
+    margin: 100px;
+}
+#display
+{
+    width: 100%;
+    font-size: 5rem;
+    border: none;
+    text-align:right;
+    background-color:#859E41;
+    color: white;
+    border-color:3px solid white;
+}
+button:hover
+{
+    background-color: hsl(0,0%,40%);
+}
+button:active
+{
+    background-color: hsl(0,0%,50%);
+}
